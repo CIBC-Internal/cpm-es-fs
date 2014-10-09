@@ -47,7 +47,7 @@ void FilesystemSync::readFile(const std::string& assetName, const FSCallback& cb
 {
   /// Add the file loading to our 'todo' list and get back to it when we are
   /// issued a filesystem update.
-  std::cout << "Requesting file: " << assetName << std::endl;
+  //\cb std::cout << "Requesting file: " << assetName << std::endl;
   mAssets.emplace_back(assetName, cb);
 }
 
